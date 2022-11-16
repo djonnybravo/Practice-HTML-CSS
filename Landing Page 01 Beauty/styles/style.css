@@ -1,0 +1,142 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333333;
+
+}
+
+.wrapper {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+}
+
+.nav>li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: #333333
+}
+.header {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0;
+}
+
+.logo {
+    color: #66C05D;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+}
+.logo-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/logo.svg");
+    margin-right: 20px;
+}
+.header-info span {
+    font-size: 16px;
+}
+.header-info button {
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #66C05D;
+    padding: 10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.header-info button:hover{
+    background-color: #66C05D;
+}
+.header-bottom {
+    padding: 20px 0 25px;
+}
+.header-bottom .nav {
+    font-size: 16px;
+    margin: 0;
+}
+.header-bottom .nav>li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+hr {
+    border: none;
+    background-color: #EFEFEF;
+    height: 1px;
+}
+
+.banner {
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 154px;
+    padding-bottom: 199px;
+    color: #ffffff;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.banner p {
+    margin-bottom: 50px;
+    max-width: 308px;
+    line-height: 1.5;
+}
+.btn{
+    color: #FFF;
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 47px;
+    margin-left: 15px;
+    transition: 0.2s ease;
+}
+.btn:hover {
+    background-color: #FFf;
+    color: #333333;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item-title {
+    grid-column: 1/4;
+    grid-row: 1/2 ;
+}
+.grid-item-img {
+    grid-column: 4/5;
+    grid-row: 1/2 ;
+}
